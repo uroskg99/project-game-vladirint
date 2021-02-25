@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //Screen.SetResolution(1920, 1080, true);
     }
     public void QuitGame()
     {

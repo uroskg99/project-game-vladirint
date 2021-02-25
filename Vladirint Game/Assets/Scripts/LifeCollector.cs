@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LifeCollector : MonoBehaviour
 {
-    //public int playerHealth = PlayerHealth.lifeCounter;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
